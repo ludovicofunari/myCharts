@@ -1,4 +1,5 @@
 # myCharts
+[![Release Charts](https://github.com/ludovicofunari/myCharts/actions/workflows/release.yml/badge.svg?branch=main&event=push)](https://github.com/ludovicofunari/myCharts/actions/workflows/release.yml)
 
 ## Requirements
 * Kubernetes 1.21+
