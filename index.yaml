@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  horovod:
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-02-06T18:02:32.777553499Z"
+    description: Horovod for PLAS platform
+    digest: 1addfc0759bd3a83f98c501530968eea863bd562aaa22d11de03fe048b7c3c40
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - https://github.com/ludovicofunari/myCharts/releases/download/horovod-3.0.0/horovod-3.0.0.tgz
+    version: 3.0.0
+generated: "2022-02-06T18:02:32.7775697Z"
