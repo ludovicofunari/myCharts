@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: dev
+description: TESK chart for PLAS platform
+home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/tesk
+keywords:
+- plas
+- tesk
+name: tesk
+sources:
+- https://github.com/PlatformedTasks/Documentation
+- https://github.com/elixir-cloud-aai/TESK/tree/master/charts/tesk
+version: 1.0.0

@@ -1,0 +1,12 @@
+{{ if eq .Values.storage "openstack" }}
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "true"
+  name: example-nfs
+parameters:
+  availability: nova
+provisioner: example.com/nfs
+{{ end }}
+
