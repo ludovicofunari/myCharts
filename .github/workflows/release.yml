@@ -29,7 +29,20 @@ jobs:
           helm repo add common https://charts.bitnami.com/bitnami
           helm repo update
           
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.3.0
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      # - name: Run chart-releaser
+      #   uses: helm/chart-releaser-action@v1.3.0
+      #   env:
+      #     CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Update Horovod Chart
+        run: |
+          helm package charts/horovod --destination=charts
+
+      - name: Push Changes to gh-pages branches
+        run: |
+          git checkout gh-pages
+          git add charts/horovod-*
+          helm repo index charts/
+          git add charts/index.yaml
+          git commit -m "Update Charts"
+          git push
