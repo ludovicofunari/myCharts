@@ -44,6 +44,7 @@ jobs:
       - name: Push Changes to gh-pages branches
         run: |
           helm repo index charts/
+          git checkout gh-pages -- charts
           git add -A
           git commit -m "Update Charts"
-          git push origin gh-pages
+          git push origin
