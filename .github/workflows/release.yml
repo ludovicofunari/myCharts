@@ -38,11 +38,18 @@ jobs:
         run: |
           helm package charts/horovod --destination=charts
 
+      - name: Update Spark Chart
+        run: |
+          helm package charts/horovod --destination=charts
+
+      - name: Update Tesk Chart
+        run: |
+          helm package charts/horovod --destination=charts
+
       - name: Push Changes to gh-pages branches
         run: |
           git checkout gh-pages
-          git add charts/horovod-*
           helm repo index charts/
-          git add charts/index.yaml
+          git add -A
           git commit -m "Update Charts"
           git push
