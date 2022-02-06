@@ -40,11 +40,11 @@ jobs:
 
       - name: Update Spark Chart
         run: |
-          helm package charts/horovod --destination=charts
+          helm package charts/spark --destination=charts
 
       - name: Update Tesk Chart
         run: |
-          helm package charts/horovod --destination=charts
+          helm package charts/tesk --destination=charts
 
       - name: Push Changes to gh-pages branches
         run: |
