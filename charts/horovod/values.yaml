@@ -1,44 +1,5 @@
 ---
-ssh:
-  port: 22
-  useSecrets: true
-  hostKey: |-
-    -----BEGIN RSA PRIVATE KEY-----
-    MIIEpAIBAAKCAQEAucUppLn15Tq8MUJWRKtvYPMBF9QD6UsHsbzeCXjQrLnnFGJq
-    Jj0x6l06lOLxINgHe65dX2U6zPMA145al2kIvjrIf/3+WVsIJ81RM1fGP5WB9X6y
-    bnuwJsP51g6OmbYYmqSXp+he4wpbO0yL/8+wpJDX6dlJCbn832GAPqauv2yMCHAz
-    kHxtrjEW8O5CSQrNtuIUAaI7es9oL95ZEWo126Ya0uKRU+HuIXJSwp7DEvLwftnT
-    1x7W+jmyMTZCz7LOUnUm8COFTdIa3qBE0CjYXDNF0gpAmaJC/FSVhOtFDb1dWDCx
-    W+YHmTYapRWBwWc8KKgfnyOJm2d66Xi8G9p4oQIDAQABAoIBAQCOgvZjbFV7OQfO
-    MjnEDFAxa7pW8Ure2bRZYa5kTc6n8yWWubj9BM0aIdMjDMY2kAONmkH/QMVPHMx0
-    kLxmkykl5iqSJePN4Mvs3NGCNb/cX3GHR17S6whDdOxgjmJPASb223WMVfMU8Yjz
-    gNGVuVqlpIg+2XXyhD+9jiq35V8BcZBz8EoMGi4Xmp3c8Xx77grxJsObKPo4ye0j
-    BkrWyG/gTJPYCfqQxe0LgXoqU+Nw5wvNQWJQdFGPlXyFIB5VOiSLLnKRpaYxKNxu
-    IK+8Km8JmN0FWrgU+Yn0jSeY2a5wkswbF6Q9Q26JbxSY+gt53fJbQm7DF9S5CgZ9
-    N4KlSq3RAoGBAOywimD7AJxlqqBeSZyzy5gxQUZNKZABLYe4uen9iWR40EUp8BfS
-    PaEHxgH/Z0SAqBAG3NqI9DdKh4YHAn2phD3ecVbroGFqNzr8jcCZWiKJKli/f2YJ
-    s3Yv0AvMpDczQCc1OZqGOTPzwDjgt9mI78tJcZwPXeez/fAjlC2qA957AoGBAMjt
-    II10Uvgn6cSabUfNsWU6GLQdDk2nMZ8Pbv12PKRJ3MJEUnQn9fx6Z/5/uoKPOYUj
-    lDSLlOlwEpJbJGps1aabOkQ8CHzMsj+YcBiRMA0Jw1ZM5ZV/UzJ7yQNTC1HUNagf
-    zzu3Oi2/gJry3zaCRXpl1qyYMOOVvqPj3RpDk6iTAoGAR2sRpie2zHpE3PT2Y0lB
-    MqASISNhWilw0pYjyv4MuftWZLg90QJIRFGzJqEpSNtFWuinNW3DuvdLI170GnTP
-    CVgYfPDGSP6iwbK5FxduwiL/Wx4VU/WzaAMPVLAgEOPvBKWjxwOfORTguIjeEM6o
-    BIAZvsxIOoTuJ8qkiI7XcgcCgYEAoMOCeUvqmt2soH8DEyGUX68lVu+soxs0i9UY
-    dDqneLgUp2dtJb1Xh4UVMj9WpuIcHtgB3C0Wn9TpNysvruuX4u9upmv2SoypzlKU
-    1kNM1BHMtn9ebshqdAkxI7TNaNLHf9a7xEbtiO8h4liTmpSPLMjRBFXdQCtvVsiZ
-    /0q0mXsCgYAMMwfO+l4ddTCPeWWkpirE6s4bvRxOPrz4itHQgsIOfrYc4Eo9zakh
-    z3vNh2SgKougC4OA8JI8C9SfOfnWMCFQRKUySU9TcsVcEQ3ClbynX7H/Dh7m/lZL
-    I+3YFlHgP891HDUHbq+ZBsj9S0TN4wv8NgYLC6vQxqc5+NhMefjRWA==
-    -----END RSA PRIVATE KEY-----
-
-  hostKeyPub: |-
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5xSmkufXlOrwxQlZEq29g8wEX1APpSwexvN4JeNCsuecUYmomPTHqXTqU4vEg2Ad7rl1fZTrM8wDXjlqXaQi+Osh//f5ZWwgnzVEzV8Y/lYH1frJue7Amw/nWDo6ZthiapJen6F7jCls7TIv/z7CkkNfp2UkJufzfYYA+pq6/bIwIcDOQfG2uMRbw7kJJCs224hQBojt6z2gv3lkRajXbphrS4pFT4e4hclLCnsMS8vB+2dPXHtb6ObIxNkLPss5SdSbwI4VN0hreoETQKNhcM0XSCkCZokL8VJWE60UNvV1YMLFb5geZNhqlFYHBZzwoqB+fI4mbZ3rpeLwb2nih vagrant@master-node
-
 resources: {}
-#  limits:
-#    nvidia.com/gpu: 1
-#  requests:
-#    nvidia.com/gpu: 1
 
 worker:
   number: 2
