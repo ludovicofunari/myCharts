@@ -1,9 +1,4 @@
 # myCharts
-# Helm Charts for PLAS
-
-In this repository you can find all the Helm charts used by the [PLAS project](https://github.com/PlatformedTasks/Documentation).
-
-PLAS is a project funded by the [GÉANT Innovation Programme](https://community.geant.org/community-programme-portfolio/innovation-programme/) initiative to extend the [GÉANT Cloud Flow (GCF)](https://clouds.geant.org/community-cloud/) to be capable of performing platformed-tasks in the cloud.
 
 ## Requirements
 * Kubernetes 1.21+
