@@ -7,3 +7,4 @@ worker:
   image:
     repository: platformedtasks/horovod
     tag: latest
+prova: aaaaaaaaaaaaaa
